@@ -1,0 +1,1 @@
+I added a variable to the dat struct called subct that counts the number of substitutions during the translate function. The variable is initialized to 0 in main with all the other variables in dat. In the function translate, subct is incremented by 1 when the byte equals inchar. In print_summary, I added a string that prints out "# total substitutions". 
